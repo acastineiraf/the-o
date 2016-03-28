@@ -1,0 +1,531 @@
+/*!
+ * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #000;
+    font-weight: 100;
+    background-color: #fff;
+    font-size: 14px;
+}
+.navbar-toggle{
+  color: #2d0a3c;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 35px;
+    /*text-transform: uppercase;*/
+    font-family: Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+p {
+    margin: 0 0 25px;
+    font-size: 14px;
+    font-family: Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.5;
+}
+
+@media(min-width:768px) {
+    body{
+      font-size: 16px;
+    }
+    p {
+        margin: 0 0 35px;
+        font-size: 15px;
+        line-height: 1.5;
+    }
+}
+
+
+a {
+    color: #2d0a3c;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #2d0a3c;
+}
+
+.light {
+    font-weight: 200;
+}
+
+.sub-header{
+  font-family: Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: lighter;
+}
+.THEO-title{
+  font-weight: 300;
+  padding: 0 0%;
+  max-width: 700px;
+}
+
+.navbar-custom {
+    margin-bottom: 0;
+    font-family: Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #fff;
+    /*background-color: rgba(128,128,128,1);*/
+}
+
+
+.navbar-custom .navbar-brand {
+    font-weight: 700;
+}
+
+.navbar-custom .navbar-brand:focus {
+    outline: 0;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+    outline: 0;
+}
+
+.navbar-custom a {
+    color: #2d0a3c;
+}
+
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover {
+    outline: 0;
+    /*color: rgba(255,255,255,.8);*/
+    background-color: transparent;
+}
+
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+    outline: 0;
+    background-color: transparent;
+}
+
+.navbar-custom .nav li.active {
+    outline: 0;
+}
+
+.navbar-custom .nav li.active a {
+    background-color: #FFF;
+    /*background-color: rgba(255,255,255,.3);*/
+}
+
+.navbar-custom .nav li.active a:hover {
+    color: #fff;
+}
+
+/* added code to center the text in the collapsed Navigation Bar */
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+/* end of center code */
+@media(min-width:768px) {
+    .navbar-custom {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .navbar-custom.top-nav-collapse {
+        padding: 0;
+        background: #FFF;
+        /*background: rgba(128,128,128,.85);*/
+    }
+}
+.intro{
+  margin-top: 10%;
+}
+.intro-design {
+    display: table;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    color: rgb(65, 65, 65);
+    background: url(../img/App/hero-app-small.jpg) no-repeat bottom center fixed;
+    background-color: #fff;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    background-size: auto;
+    -o-background-size: auto;
+}
+
+
+.intro-design .intro-body {
+    /*display: table-cell;*/
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    /*vertical-align: middle;*/
+    overflow: hidden;
+
+}
+
+.brand-heading {
+    font-size: 25px;
+}
+
+.intro-design .intro-body .intro-text {
+    font-size: 15px;
+}
+
+.logo{
+  height: 150px;
+  width: 100%;
+  background-image: url(../img/logo150pxh.png);
+  background-position: center;
+  background-repeat: no-repeat;
+
+  }
+  @media(min-width:768px) {
+      .logo {
+        margin-left: 80px;
+        background-position: left;
+      }
+      .intro-design {
+          height: 100%;
+          padding: 0;
+          overflow: hidden;
+          text-align: left;
+          background: url(../img/App/hero-app.jpg) no-repeat bottom center fixed;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          background-size: cover;
+          -o-background-size: cover;
+      }
+
+      .brand-heading {
+          font-size: 30px;
+      }
+
+      .intro .intro-body .intro-text {
+          font-size: 26px;
+      }
+  }
+
+  .app-buttons{
+
+  }
+
+  app-section{
+    width: 100%;
+    color: rgb(65, 65, 65);
+    position: relative;
+    background-color: rgb(250, 250, 250);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    overflow: hidden;
+  }
+
+  .app-title{
+    margin-top: 30px;
+    position: relative;
+  }
+
+  .phone-img{
+    display: block;
+     margin: 0 auto;
+     max-width: 100%;
+  }
+
+  #App-columns{
+    padding: 0% 10%;
+  }
+  }
+
+  @media(max-width:1200px) {
+      .phone-img {
+        max-height: 200px;
+        margin: 0 auto;
+      }
+
+  }
+  @media(max-width:990px) {
+      .phone-img {
+        max-height: 300px;
+      }
+  }
+  @media(max-width:768px) {
+      .phone-img {
+        max-height: 350px;
+      }
+      #App-columns{
+        padding: 0 20%;
+      }
+  }
+
+.textcontainer{
+  left: auto;
+  margin: auto;
+  max-width: 300px;
+  position: relative;
+  /*background-color: pink;*/
+}
+
+.textcontainer-right{
+  margin-left: auto;
+  max-width: 400px;
+  position: relative;
+  /*background-color: pink;*/
+}
+
+.textcontainer-left{
+  margin-right: auto;
+  max-width: 400px;
+  position: relative;
+  /*background-color: pink;*/
+}
+
+
+.textcontainer-absolute{
+  right: 30%;
+  left: 30%;
+  top: 50px;
+  text-align: center;
+  position: absolute;
+}
+@media(max-width: 768px){
+  .textcontainer{
+    max-width: 500px;
+    margin: auto;
+  }
+}
+.colors{
+  padding: 50px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.example{
+  height: 400px;
+  background: url(../img/App/example.png)no-repeat top left;
+  background-color: white;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  -o-background-size: contain;
+}
+
+.Notification{
+  height: 450px;
+  background: url(../img/App/Notification-iOSandAndroid.png)no-repeat top center;
+  background-color: white;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  -o-background-size: contain;
+}
+
+
+
+
+.Home-screen{
+  height: 500px;
+  background: url(../img/App/HomeScreen.png)no-repeat top center;
+  background-color: white;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  -o-background-size: contain;
+
+}
+.Map-screen{
+  height: 500px;
+  background: url(../img/App/MapScreen.png)no-repeat top center;
+  background-color: white;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  -o-background-size: contain;
+
+}
+
+.app-title{
+  margin-top: 30px;
+  position: relative;
+}
+
+
+
+#design-text {
+  padding: 10px 5px;
+  font-size: 14px;
+}
+
+#comming-soon {
+  padding: 10px 5px ;
+  font-size: 14px;
+}
+#comming-soon1 {
+  padding: 10px 5px ;
+  font-size: 14px;
+}
+
+@media(min-width:768px){
+  #comming-soon1{
+    padding: 90px 5px 10px 5px;
+  }
+}
+#hero-text {
+  padding: 10px 5px;
+  font-size: 18px;
+}
+
+/* Packaging section */
+
+.packaging {
+  margin-bottom: 50px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+
+.colors, .versatile, .Specs, .keychain-section, .app-section{
+  background-color: #fff;
+  overflow: hidden;
+  padding-bottom: 200px;
+}
+
+
+.btn-default-whynot {
+    border: 1px solid #2d0a3c;
+    color: #2d0a3c;
+    background-color: transparent;
+}
+
+.btn-default-whynot:hover,
+.btn-default-whynot:focus {
+    border: 1px solid #2d0a3c;
+    outline: 0;
+    color: #fff;
+    background-color: #2d0a3c;
+
+}
+
+@media(min-width:767px) {
+    .content-section,
+    .design-section,
+    .howItWorks-section  { padding: 50px 0px;}
+  }
+
+
+
+
+.btn {
+    border-radius: 0;
+    text-transform: uppercase;
+    font-family: Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.btn-default {
+    border: 1px solid #2d0a3c;
+    color: #2d0a3c;
+    background-color: transparent;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+    border: 1px solid #2d0a3c;
+    outline: 0;
+    color: #fff;
+    background-color: #2d0a3c;
+
+}
+
+ul.banner-social-buttons {
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    ul.banner-social-buttons li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.footer{
+  width: 100%;
+  padding: 10px 0;
+  position: absolute bottom fixed;
+  text-align: center;
+  color: rgb(208, 208, 208);
+  /* Set the fixed height of the footer here */
+  background-color: transparent;
+}
+.footer-icons{
+  padding: 5px 15px;
+  color: rgb(208, 208, 208);
+}
+.footer-icons:hover, .footer-icons:focus {
+  color: rgb(65,65,65);
+}
+
+.footer-text{
+  padding: 0px 5px 6px 6px;
+  color: rgb(208, 208, 208);
+  font-size: 14px;
+}
+
+body {
+    webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
